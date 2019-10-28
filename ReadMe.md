@@ -25,7 +25,7 @@ sudoku = [
 
 
 ## Horizontal Check
-  - Push the contents of sudoku[0,1,2] into an array and on every push run a check to see if the integer already exists in the destination array.  If so dont push, and once you have gone through all 9 iterration check the length of the pushed array if 9 then return true. 
-    - repeat for the sodoku[3, 4, 5], sodoku[6, 7, 8] etc.
+  - Push the contents of ```sudoku[0,1,2]``` into an array and on every push run a check to see if the integer already exists in the destination array.  If so dont push, and once you have gone through all 9 iterration check the length of the pushed array if 9 then return true. 
+    - repeat for the ```sodoku[3, 4, 5], sodoku[6, 7, 8]``` etc.
 
 - If at anytime either of these checks return false, break out of the function and return that the puzzle is incomplete/failed. 
